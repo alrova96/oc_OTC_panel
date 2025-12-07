@@ -51,12 +51,6 @@ Thumbs.db
 .streamlit/secrets.toml
 .streamlit/*.log
 
-# Data files (keep private - DO NOT UPLOAD TO GITHUB)
-data/
-*.xlsx
-*.xls
-*.csv
-
 # PDF references (keep private)
 resources/references/
 *.pdf
