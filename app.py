@@ -1695,8 +1695,16 @@ elif selected_section == "📊 Data Analysis":
             st.warning("Not enough numeric columns in the data to perform correlation analysis.")
 
     except Exception as e:
-        st.error(f"Error loading data: {e}")
-        st.info("Please ensure that the file 'data/Panel.xlsx' exists and contains valid data.")
+        st.info("""
+        📊 **Data Privacy Notice**
+
+        Raw campaign data (satellite-in situ matchups, temporal evolution, and ocean colour maps) are not publicly available
+        to protect sensitive scientific information prior to publication.
+
+        For data access requests, please contact the campaign PIs:
+        - Victoria Hill (ODL): vhill@odu.edu
+        - Sébastien Clerc (ACRI-ST): sebastien.clerc@acri-st.fr
+        """)
 
     # =========================================================================
     # BGC ARGO FLOAT ANALYSIS
@@ -1990,14 +1998,20 @@ elif selected_section == "📊 Data Analysis":
         """, unsafe_allow_html=True)
 
     except Exception as e:
-        st.error(f"Error loading ocean colour data: {str(e)}")
-        st.markdown(f"""
-        <div class="team-card">
-            <p style="color: {UI_COLORS['medium']}; text-align: center; font-style: italic;">
-                Ocean colour maps will be displayed here once data is available
-            </p>
-        </div>
-        """, unsafe_allow_html=True)
+        st.info("""
+        🗺️ **Satellite-derived Ocean Colour Maps**
+
+        High-resolution ocean colour maps and derived products are not publicly available
+        to protect sensitive scientific information prior to publication.
+
+        This section will display:
+        - Chlorophyll-a concentrations from multiple satellites (Sentinel-3, MODIS, PACE)
+        - Particulate backscattering coefficients
+        - Diffuse attenuation coefficients
+        - Match-up locations overlaid on satellite imagery
+
+        For access to processed satellite products, contact the PIs.
+        """)
 
 # -----------------------------------------------------------------------------
 # REFERENCES
