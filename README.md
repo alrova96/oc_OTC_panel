@@ -13,7 +13,7 @@ Comprehensive Streamlit web application showcasing results, methodology, team, a
 
 ## 📖 About
 
-The **ESA OTC25 campaign** was a 24-day oceanographic validation cruise aboard the R/V Sarmiento de Gamboa designed to validate satellite ocean color products through coordinated multi-platform observations.
+The **ESA OTC25 campaign** was an oceanographic validation exercise carried out aboard the tall ship Statsraad Lehmkuhl, with the goal of validating satellite ocean color products through coordinated multi-platform observations.
 
 ### 🎯 Scientific Objectives
 
@@ -41,15 +41,14 @@ The **ESA OTC25 campaign** was a 24-day oceanographic validation cruise aboard t
 - AI-powered methodology chatbot
 
 ### 👥 Team
-- 30+ contributors from 8 international institutions
-- Principal Investigators: Victoria Hill (ODL), Sébastien Clerc (ACRI-ST)
+- 6 contributors from different international institutions
+- Team members: Lou Andrès, Mathurin Choblet, Alba L. Guzmán-Morales, Sejal Pramlall, Alejandro Román, Luz M. Suklje
 - Interactive team profiles with expertise and contributions
 
 ### 📚 References
 - 30+ peer-reviewed publications
 - Categorized bibliography (algorithms, validation, hyperspectral, BGC-Argo)
 - AI chatbot for literature queries
-- Full DOI citations
 
 ---
 
@@ -75,23 +74,6 @@ streamlit run app.py
 
 ---
 
-## 📦 Project Structure
-
-```
-OTC_panel/
-├── app.py                  # Main Streamlit application
-├── image_data.py           # Base64-encoded images
-├── station_data.py         # Station metadata
-├── requirements.txt        # Python dependencies
-├── README.md              # This file
-├── .gitignore             # Git ignore rules
-├── resources/             # Image assets (logos, photos, figures)
-└── .streamlit/            # Streamlit configuration
-    └── config.toml        # Theme settings
-```
-
----
-
 ## 🛰️ Data Sources
 
 **Note**: Raw datasets are not included in this repository due to data privacy. The application displays pre-processed, aggregated results.
@@ -101,17 +83,6 @@ OTC_panel/
 - **BGC-Argo**: Hyperspectral radiometry (WMO 5906995, 7901133)  
 - **Drones**: Multispectral aerial surveys  
 - **Inline**: Continuous flow-through measurements  
-
----
-
-## 🌐 Deployment
-
-### Streamlit Community Cloud
-
-1. Push to GitHub
-2. Visit [share.streamlit.io](https://share.streamlit.io)
-3. Connect repository
-4. Deploy!
 
 ---
 
@@ -125,47 +96,8 @@ OTC_panel/
 
 ---
 
-## 🙏 Acknowledgments
-
-### Funding
-**European Space Agency (ESA)** - Ocean Colour Toward Validation Cruise 2025
-
-### Principal Investigators
-- **Victoria Hill** - Old Dominion University (ODL)
-- **Sébastien Clerc** - ACRI-ST
-
-### Contributing Institutions
-Old Dominion University (ODL) • ACRI-ST • OneOcean • NASA Ocean Ecology Laboratory • Nansen Environmental and Remote Sensing Center (NERSC) • Laboratoire d'Etudes en Géophysique et Océanographie Spatiales (Lemkhul) • The Plocan Service (TPS) • Indra
-
-### R/V Sarmiento de Gamboa
-Spanish National Research Council (CSIC) for vessel operations
-
----
-
-## 📞 Contact
-
-**Project Maintainer**: Alejandro Román Gonzalo  
-📧 **Email**: alejandro.roman.gonzalo@gmail.com  
-🔬 **Institution**: ICMAN-CSIC, Puerto Real, Spain  
-🔗 **ORCID**: [0000-0002-6989-7510](https://orcid.org/0000-0002-6989-7510)  
-💼 **LinkedIn**: [Alejandro Román Gonzalo](https://www.linkedin.com/in/alejandro-román-gonzalo/)
-
-**Campaign Lead**: Victoria Hill (ODL) • Sébastien Clerc (ACRI-ST)
-
----
-
 ## 📄 License
 
 This project is licensed under the MIT License.
 
 ---
-
-<div align="center">
-
-**Made with ❤️ for ocean science**
-
-🌊 *Advancing ocean color validation through multi-platform observations* 🛰️
-
-[![Streamlit](https://img.shields.io/badge/Powered%20by-Streamlit-FF4B4B?style=flat-square&logo=Streamlit&logoColor=white)](https://streamlit.io/)
-
-</div>
