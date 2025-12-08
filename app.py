@@ -196,7 +196,7 @@ logos_html += '</div>'
 # Row 2: ODL, OneO, TPS
 logos_html += '<div>'
 if IMAGE_DATA.get('odl_logo'):
-    logos_html += f'<img src="data:image/png;base64,{IMAGE_DATA["odl_logo"]}" style="width: 70px; height: 45px; margin: 0 4px;" />'
+    logos_html += f'<img src="data:image/png;base64,{IMAGE_DATA["odl_logo"]}" style="width: 80px; height: 45px; margin: 0 4px;" />'
 if IMAGE_DATA.get('oneo_logo'):
     logos_html += f'<img src="data:image/png;base64,{IMAGE_DATA["oneo_logo"]}" style="width: 45px; height: 45px; margin: 0 4px;" />'
 if IMAGE_DATA.get('tps_logo'):
